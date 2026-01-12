@@ -17,6 +17,7 @@ body {
   background-color: var(--black);
   color: var(--light-gray);
   line-height: 1.6;
+  
 }
 
 header {
@@ -30,24 +31,35 @@ nav ul {
   list-style: none;
 }
 
-nav a {
+ nav a {
   color: var(--white);
   text-decoration: none;
   font-weight: bold;
 }
 
-nav a:hover {
+ nav a:hover {
   color: var(--red);
 }
 
-main {
+ main {
   padding: 2rem;
+  margin-bottom: 1rem;
+}
+ h1{
+  text-align: center;
+  color: var(--white);
+  margin-bottom: 2rem;
 }
 
-h1, h2, h3 {
+ h2,h3 {
   color: var(--white);
   margin-bottom: 1rem;
 }
+
+.last{
+  margin-bottom: 1rem;
+}
+
 
 section {
   margin-bottom: 3rem;

@@ -56,8 +56,38 @@ nav ul {
   margin-bottom: 1rem;
 }
 
-.last{
+#last{
   margin-bottom: 1rem;
+}
+
+#list{
+ margin-left: 1rem;
+ margin-bottom: 2rem;
+}
+
+#_btnRozvrh{
+  background-color: var(--light-gray);
+}
+
+#_btnRozvrh a{
+ color: var(--dark-gray);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#_btnRozvrh a:hover{
+ color: var(--white);
+ background-color: var(--red);
+} 
+table {
+  width: 35%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+}
+
+th ,td {
+  padding: 0.75rem 1.2rem; 
+  text-align: left;
 }
 
 
@@ -72,7 +102,7 @@ footer {
   color: var(--light-gray);
 }
 
-/* Responzivita */
+
 @media (max-width: 600px) {
   nav ul {
     flex-direction: column;
